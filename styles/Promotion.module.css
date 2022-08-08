@@ -1,0 +1,94 @@
+.bestProductDiv {
+    display: flex;
+    position: relative;
+}
+
+.quoteBanner {
+    margin: 10px;
+    width: 570px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.quoteBannerTwo {
+    margin: 10px;
+    width: 570px;
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.quoteOne {
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    width: 15%;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.quoteTwo {
+    position: absolute;
+    top: 120px;
+    left: 680px;
+    width: 15%;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.button {
+    background-color: rgba(255, 0, 0, 0.809);
+    color: white;
+    outline-style: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .bestProductDiv {
+        display: block;
+        position: relative;
+
+    }
+
+    .quoteOne {
+        position: absolute;
+        top: 10px;
+        left: 190px;
+        width: 40%;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+
+    .quoteTwo {
+        position: absolute;
+        top: 200px;
+        left: 30px;
+        width: 45%;
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+        padding-top: 20px;
+    }
+
+    .bestProductDiv div {
+        height: 100%;
+    }
+
+    .quoteBanner,
+    .quoteBannerTwo {
+        margin: 0px;
+        width: 100%;
+        margin-top: 20px;
+        border-radius: 10px;
+
+    }
+}
