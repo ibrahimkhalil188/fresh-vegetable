@@ -1,0 +1,56 @@
+[
+    {
+        "id": "1",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://img.freepik.com/free-photo/colorful-shiny-fresh-vegetables-bell-sweet-yellow-red-peppers-shelf-supermarket-grocery-store_627829-8290.jpg?w=826&t=st=1659607832~exp=1659608432~hmac=5f13f50b1ef3688fbc16f2abe25839df3b6dc7768ad925c03698af2b6ef3a8f0",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    },
+    {
+        "id": "2",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://cdn.shopify.com/s/files/1/0412/8151/9765/products/4_e3af2cd6-0f26-42a3-8071-42cae821c669.jpg?v=1620644020",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    },
+    {
+        "id": "3",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://cdn.shopify.com/s/files/1/0412/8151/9765/products/4_e3af2cd6-0f26-42a3-8071-42cae821c669.jpg?v=1620644020",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    },
+    {
+        "id": "4",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://img.freepik.com/free-photo/close-up-shot-bunch-fresh-ripe-carrots-old-chopping-board-with-deep-cuts_346278-439.jpg?w=826&t=st=1659607656~exp=1659608256~hmac=8fc797ce6b9e4d1b615a3bc9f6a65111bc7685e990ee6e0ec3761422b457338b",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    },
+    {
+        "id": "5",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://img.freepik.com/free-photo/colorful-shiny-fresh-vegetables-bell-sweet-yellow-red-peppers-shelf-supermarket-grocery-store_627829-8290.jpg?w=826&t=st=1659607832~exp=1659608432~hmac=5f13f50b1ef3688fbc16f2abe25839df3b6dc7768ad925c03698af2b6ef3a8f0",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    },
+    {
+        "id": "6",
+        "category": "vegetable",
+        "name": "cauliflower",
+        "price": "10/kg",
+        "image": "https://cdn.shopify.com/s/files/1/0412/8151/9765/products/4_e3af2cd6-0f26-42a3-8071-42cae821c669.jpg?v=1620644020",
+        "ratings": "4",
+        "description": "A list of abnormal conditions which affects our body and which have specific signs and symptoms"
+    }
+]
