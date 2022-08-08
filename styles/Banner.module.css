@@ -1,0 +1,70 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 85vh;
+    background-image: url(../public/Images//greenbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.heroImg {
+    margin: 10px;
+    width: 550px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.heroText {
+    width: 50%;
+    color: white;
+    padding: 0px 10px;
+}
+
+.slogan {
+    font-size: 50px;
+    font-style: italic;
+    padding-left: 80px;
+    margin-top: 60px;
+    text-transform: uppercase;
+}
+
+.button {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        padding-top: 0px;
+    }
+
+    .hero div:first-child {
+        order: 2;
+    }
+
+    .heroImg {
+        margin: 0px;
+        width: 100%;
+        margin-top: 0px;
+        border-radius: 0px;
+        order: 1;
+    }
+
+    .heroText {
+        width: 100%;
+        order: 2;
+    }
+
+    .slogan {
+        font-size: 30px;
+        font-style: italic;
+        padding-left: 20px;
+        margin-top: 20px;
+        text-transform: uppercase;
+    }
+}
