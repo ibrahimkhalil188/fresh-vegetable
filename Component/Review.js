@@ -17,7 +17,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "2",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -26,7 +26,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "13",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -35,7 +35,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "14",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -44,7 +44,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "15",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -53,7 +53,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "16",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -62,7 +62,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "17",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -71,7 +71,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "18",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",
@@ -80,7 +80,7 @@ const Reviews = () => {
                 "position": "3rd"
             },
             {
-                "id": "1",
+                "id": "19",
                 "name": "Adullah al mamun",
                 "university": "Dhaka university",
                 "unit": "A",

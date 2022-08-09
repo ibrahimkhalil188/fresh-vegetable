@@ -2,7 +2,7 @@
     {
         "id": "1",
         "category": "vegetable",
-        "name": "cauliflower",
+        "name": "Tomato",
         "price": "10/kg",
         "image": "https://img.freepik.com/free-photo/colorful-shiny-fresh-vegetables-bell-sweet-yellow-red-peppers-shelf-supermarket-grocery-store_627829-8290.jpg?w=826&t=st=1659607832~exp=1659608432~hmac=5f13f50b1ef3688fbc16f2abe25839df3b6dc7768ad925c03698af2b6ef3a8f0",
         "ratings": "4",
@@ -38,7 +38,7 @@
     {
         "id": "5",
         "category": "vegetable",
-        "name": "cauliflower",
+        "name": "Tomato",
         "price": "10/kg",
         "image": "https://img.freepik.com/free-photo/colorful-shiny-fresh-vegetables-bell-sweet-yellow-red-peppers-shelf-supermarket-grocery-store_627829-8290.jpg?w=826&t=st=1659607832~exp=1659608432~hmac=5f13f50b1ef3688fbc16f2abe25839df3b6dc7768ad925c03698af2b6ef3a8f0",
         "ratings": "4",

@@ -1,11 +1,21 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { AiOutlineMenu } from 'react-icons/ai'
 import Link from 'next/link';
 import style from '../styles/Navbar.module.css'
 import { BsCartCheck } from 'react-icons/bs'
 import { AiOutlineHeart } from 'react-icons/ai'
+import ShoppingCart from './ShoppingCart';
 const Navbar = () => {
-    const { navbar, logo, menu, menubar, icon, listItem, link, span } = style
+    const [product, setProduct] = useState()
+    const [size, setSize] = useState()
+    const [popup, setPopup] = useState(false)
+    const { navbar, logo, menu, menubar, icon, listItem, link, span, numberOfItem } = style
+    useEffect(() => {
+        const storedCart = localStorage.getItem("shopping-cart")
+        const shoppingCart = JSON.parse(storedCart)
+        setProduct(shoppingCart)
+        setSize(Object?.keys(shoppingCart)?.length)
+    }, [])
     return (
         <div className={navbar}>
             <div className={logo}>
@@ -19,8 +29,8 @@ const Navbar = () => {
 
                 <div className={`${menu} ${menubar}`}>
                     <li className={listItem}><Link className={link} href=''>
-                        <span className={span} title='Add to cart'>
-                            <BsCartCheck></BsCartCheck>
+                        <span className={span} title='Add to cart' onClick={() => setPopup(!popup)}>
+                            <BsCartCheck></BsCartCheck><span className={numberOfItem}>{size}</span>
                         </span>
                     </Link></li>
                     <li className={listItem}><Link className={span} href=''>
@@ -34,6 +44,7 @@ const Navbar = () => {
                     <li className={listItem}><Link href='login'>Login</Link></li>
                 </div>
             </div>
+            <ShoppingCart popup={popup} product={product}></ShoppingCart>
         </div >
     );
 };
