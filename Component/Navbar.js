@@ -12,7 +12,7 @@ const Navbar = () => {
     const { navbar, logo, menu, menubar, icon, listItem, link, span, numberOfItem } = style
     useEffect(() => {
         const storedCart = localStorage.getItem("shopping-cart")
-        const shoppingCart = JSON.parse(storedCart)
+        const shoppingCart = JSON.parse(storedCart) || {}
         setProduct(shoppingCart)
         setSize(Object?.keys(shoppingCart)?.length)
     }, [])
